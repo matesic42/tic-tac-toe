@@ -13,7 +13,7 @@ function App() {
           </div>
           <div className="bg-gray p-2 w-1/3 text-center rounded-lg">Turn X </div>
           <div className="bg-gray p-2 rounded-lg text-center">
-            <img src={restart} className="w-5 h-5"alt="" />
+            <img src={restart} className="w-5 h-5Qnp"alt="" />
           </div>
         </div>
         <div className="flex items-center justify-center  my-5">
@@ -30,15 +30,15 @@ function App() {
         </div>
 
         <div class=" my-10  flex p-3 justify-between items-center text-center ">
-          <div className="bg-yellow p-3 rounded-xl w-1/3 shadow-md shadow-black">
+          <div className="bg-yellow p-2 rounded-xl w-1/3 shadow-md shadow-black">
             <p>X (YOU)</p>
             <p className="text-center font-bold">0</p>
           </div>
-          <div className="bg-gray p-3  shadow-md shadow-black rounded-xl w-1/3 mx-4">
+          <div className="bg-gray p-2  shadow-md shadow-black rounded-xl w-1/3 mx-4">
             <p>TIES</p>
             <p className="text-center font-bold">0</p>
           </div>
-          <div className="bg-green p-3 shadow-md shadow-black rounded-xl w-1/3">
+          <div className="bg-green p-2 shadow-md shadow-black rounded-xl w-1/3">
             <p>O (CPU)</p>
             <p className="text-center font-bold">0</p>
           </div>
